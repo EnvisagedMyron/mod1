@@ -1,5 +1,6 @@
 package name.modid;
 
+import name.modid.item.ModItemGroups;
 import name.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }

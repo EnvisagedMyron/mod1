@@ -14,10 +14,12 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     // creating a ruby
     public static final Item RUBY = registerItem("ruby",new Item(new FabricItemSettings()));
+    public static final Item RAW_RUBY = registerItem("raw_ruby",new Item(new FabricItemSettings()));
 
     // adding the rub entry to ingedients tab
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
+        entries.add(RAW_RUBY);
     }
 
 
