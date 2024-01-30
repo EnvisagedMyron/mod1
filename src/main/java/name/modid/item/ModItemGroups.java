@@ -1,6 +1,7 @@
 package name.modid.item;
 
 import name.modid.TutorialMod;
+import name.modid.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -18,7 +19,8 @@ public class ModItemGroups {
                         // adding items to the group
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
-                        entries.add(Items.DIAMOND);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     }).build());
 
