@@ -1,6 +1,7 @@
 package name.modid.item;
 
 import name.modid.TutorialMod;
+import name.modid.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -15,11 +16,16 @@ public class ModItems {
     // creating a ruby
     public static final Item RUBY = registerItem("ruby",new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby",new Item(new FabricItemSettings()));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector"
+            ,new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item TOMATO = registerItem("tomato",new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",new Item(new FabricItemSettings()));
 
     // adding the rub entry to ingedients tab
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
         entries.add(RAW_RUBY);
+
     }
 
 
