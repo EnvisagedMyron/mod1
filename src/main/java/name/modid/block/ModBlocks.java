@@ -37,6 +37,21 @@ public class ModBlocks {
 
     public static final Block RUBY_BUTTON = registerBlock("ruby_button",
             new ButtonBlock(BlockSetType.IRON, 10,FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON,FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block RUBY_FENCE = registerBlock("ruby_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA,FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_WALL = registerBlock("ruby_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block RUBY_DOOR = registerBlock("ruby_door",
+            new DoorBlock(BlockSetType.IRON,FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON,FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
 
 
     // 2 helper methods
