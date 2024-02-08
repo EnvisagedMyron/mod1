@@ -37,19 +37,6 @@ public class ModBlocks {
 
     public static final Block RUBY_BUTTON = registerBlock("ruby_button",
             new ButtonBlock(BlockSetType.IRON, 10,FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
-            new PressurePlateBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK),BlockSetType.ActivationRule.EVERYTHING));
-
-    public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
-    public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
-    public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
-    public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
-    public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
 
 
     // 2 helper methods
